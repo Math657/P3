@@ -1,0 +1,155 @@
+$base-font-size: 22px;
+$font-color-btn: #FDCB46;
+$main: #579C87;
+
+// Animation 3 petit points
+
+.animation {
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.point {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: $main 1px solid;
+    background-color: $main;
+}
+
+.pt1 {
+    animation: pt1 500ms 0ms linear alternate infinite;
+}
+
+.pt2 {
+    animation: pt2 500ms 166ms linear alternate infinite;
+}
+
+.pt3 {
+    animation: pt3 500ms 333ms linear alternate infinite;
+}
+
+@keyframes pt1 {
+    75% {
+        transform: translateY(0%);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translateY(-50%);
+        animation-timing-function: ease-in-out;
+    } 
+}
+
+@keyframes pt2 {
+    75% {
+        transform: translateY(0%);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translateY(-50%);
+        animation-timing-function: ease-in-out;
+    } 
+}
+
+@keyframes pt3 {
+    75% {
+        transform: translateY(0%);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translateY(-50%);
+        animation-timing-function: ease-in-out;
+    } 
+}
+
+// Animation Secousses des boutons
+
+.btn_mentionslegales {
+    padding-left: 1rem;
+    padding-top: 1.2rem;
+    animation: secousse1 8s 3s infinite;
+}
+
+.btn_contacteznous {
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    animation: secousse2 8s 4s infinite;
+    
+}   @keyframes secousse1 {
+    0% {
+    }
+
+    4% {
+        transform: translateX(0%);
+    }
+    5% {
+        transform: translateX(-5%);
+        
+    }
+    6% {
+        transform: translateX(5%);
+        animation-timing-function: ease-in-out;
+    }
+
+    7% {
+        transform: translateX(-5%);
+        animation-timing-function: ease-in-out;
+    }
+
+    8% {
+        transform: translateX(5%);
+        animation-timing-function: ease-in-out;
+    }
+    9% {
+        transform: translateX(0%);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+
+}
+
+@keyframes secousse2 {
+    0% {
+    }
+
+    4% {
+        transform: translateX(0%);
+    }
+    5% {
+        transform: translateX(-5%);
+        
+    }
+    6% {
+        transform: translateX(5%);
+        animation-timing-function: ease-in-out;
+    }
+
+    7% {
+        transform: translateX(-5%);
+        animation-timing-function: ease-in-out;
+    }
+
+    8% {
+        transform: translateX(5%);
+        animation-timing-function: ease-in-out;
+    }
+    9% {
+        transform: translateX(0%);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+
+}
