@@ -2,3 +2,46 @@ $base-font-size: 22px;
 $font-color-btn: #FDCB46;
 $main: #579C87;
 
+html {
+    background-color: rgb(219, 219, 219);
+}
+
+.section_menu {
+    background-color:#FCDFDB;
+    color: #441B20;
+    margin: 3rem auto 4rem auto;
+    padding: 1.5rem;
+    width: 80%;
+    max-width: 700px;
+    min-height: 70%;
+    font-size: 18px;
+    line-height: 1.5;
+    box-shadow: 2px 2px 10px rgb(201, 200, 200);
+        ul {
+            list-style: none;
+        }
+        h1, h2, h3, h4 {
+            text-align: center;
+        }
+        ul {
+            text-align: left;
+        }
+        .fa-music {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 3rem;
+            width: auto;
+        }
+        .prix {
+            float: right;
+        }
+        .la_note {
+            display: flex;
+            justify-content: center;
+            line-height: 0.5;
+                .fa-music {
+                    margin-right: 1rem;
+                }
+        }
+}
