@@ -10,11 +10,11 @@ html {
     background-color:#FCDFDB;
     color: #441B20;
     margin: 3rem auto 4rem auto;
-    padding: 1.5rem;
+    padding: 3rem;
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
     min-height: 70%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     box-shadow: 2px 2px 10px rgb(201, 200, 200);
         ul {
@@ -25,6 +25,7 @@ html {
         }
         ul {
             text-align: left;
+            padding: 0;
         }
         .fa-music {
             display: block;
@@ -32,6 +33,7 @@ html {
             margin-right: auto;
             height: 3rem;
             width: auto;
+            color: #C06E68;
         }
         .prix {
             float: right;
@@ -43,5 +45,14 @@ html {
                 .fa-music {
                     margin-right: 1rem;
                 }
+        }
+}
+
+.titre_trait {
+    display: flex;
+    justify-content: space-between;
+        img {
+            max-width: 10rem;
+            align-self: center; 
         }
 }
