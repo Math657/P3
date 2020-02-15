@@ -26,6 +26,7 @@ html {
         ul {
             text-align: left;
             padding: 0;
+            margin-bottom: 3rem;
         }
         .fa-music {
             display: block;
@@ -43,6 +44,7 @@ html {
             justify-content: center;
             line-height: 0.5;
                 .fa-music {
+                    margin-left: 8px;
                     margin-right: 1rem;
                 }
         }
@@ -51,6 +53,7 @@ html {
 .titre_trait {
     display: flex;
     justify-content: space-between;
+    line-height: 0.8;
         img {
             max-width: 10rem;
             align-self: center; 

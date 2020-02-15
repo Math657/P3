@@ -148,6 +148,7 @@ html {
 .section_menu ul {
   text-align: left;
   padding: 0;
+  margin-bottom: 3rem;
 }
 .section_menu .fa-music {
   display: block;
@@ -166,12 +167,14 @@ html {
   line-height: 0.5;
 }
 .section_menu .la_note .fa-music {
+  margin-left: 8px;
   margin-right: 1rem;
 }
 
 .titre_trait {
   display: flex;
   justify-content: space-between;
+  line-height: 0.8;
 }
 .titre_trait img {
   max-width: 10rem;
