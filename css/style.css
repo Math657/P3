@@ -149,6 +149,22 @@ h3:hover:before {
   transform: scaleX(1);
 }
 
+#orange:before {
+  background-color: #C67412;
+}
+
+#violet:before {
+  background-color: #A56799;
+}
+
+#bleu:before {
+  background-color: #6E4CCC;
+}
+
+.black:before {
+  background-color: black;
+}
+
 html {
   background-color: #dbdbdb;
 }
@@ -210,6 +226,49 @@ html {
 .titre_trait img {
   max-width: 10rem;
   align-self: center;
+}
+
+.titre_menu2 {
+  background: -webkit-linear-gradient(left, #C67412, #6E4CCC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.para1_menu2 {
+  color: #C67412;
+}
+
+.para2_menu2 {
+  color: #A56799;
+}
+
+.para3_menu2 {
+  color: #6E4CCC;
+}
+
+.section_menu3 {
+  background-color: #EDEFEF;
+  color: black;
+}
+
+.titre_menu3 {
+  background: -webkit-linear-gradient(left, #0228DD, #A0D0F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.section_menu4 {
+  background-color: #FDFFFD;
+  color: black;
+}
+
+.titre_menu4 {
+  background: -webkit-linear-gradient(left, #45993E, #D1FBAB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
 }
 
 @font-face {

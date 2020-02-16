@@ -5,7 +5,7 @@ $main: #579C87;
 html {
     background-color: rgb(219, 219, 219);
 }
-
+// Menu 1 et général
 .section_menu {
     background-color:#FCDFDB;
     color: #441B20;
@@ -52,6 +52,7 @@ html {
         }
 }
 
+// Menu 2
 .section_menu2 {
     background-color: #FFF5FE;
 }
@@ -64,4 +65,51 @@ html {
             max-width: 10rem;
             align-self: center; 
         }
+}
+
+.titre_menu2 {
+    background: -webkit-linear-gradient(left, #C67412, #6E4CCC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.para1_menu2 {
+    color: #C67412;
+}
+
+.para2_menu2 {
+    color :#A56799;
+}
+
+.para3_menu2 {
+    color: #6E4CCC;
+}
+
+// Menu 3
+
+.section_menu3 {
+    background-color: #EDEFEF;
+    color: black;
+}
+
+.titre_menu3  {
+    background: -webkit-linear-gradient(left, #0228DD, #A0D0F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+// Menu 4
+
+.section_menu4 {
+    background-color: #FDFFFD;
+    color: black;
+}
+
+.titre_menu4  {
+    background: -webkit-linear-gradient(left, #45993E, #D1FBAB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
 }
