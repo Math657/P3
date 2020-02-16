@@ -52,11 +52,6 @@ html {
         }
 }
 
-// Menu 2
-.section_menu2 {
-    background-color: #FFF5FE;
-}
-
 .titre_trait {
     display: flex;
     justify-content: space-between;
@@ -67,8 +62,14 @@ html {
         }
 }
 
+// Menu 2
+
+.section_menu2 {
+    background-color: #FFF5FE;
+}
+
 .titre_menu2 {
-    background: -webkit-linear-gradient(left, #C67412, #6E4CCC);
+   background: -webkit-linear-gradient(left, #C67412, #6E4CCC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
