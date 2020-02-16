@@ -49,6 +49,10 @@ header {
     height: 7rem;
     padding-top: 1px;
     letter-spacing: -3px;
+        a {
+            text-decoration: none;
+            color: $font-color-btn;
+        }
 }
 
 .bloc_menu {

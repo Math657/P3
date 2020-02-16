@@ -39,6 +39,7 @@ html {
         }
         .prix {
             float: right;
+           // font-size: 16px; A VOIR (agrandir)
         }
         .la_note {
             display: flex;
@@ -49,6 +50,10 @@ html {
                     margin-right: 1rem;
                 }
         }
+}
+
+.section_menu2 {
+    background-color: #FFF5FE;
 }
 
 .titre_trait {

@@ -198,6 +198,10 @@ html {
   margin-right: 1rem;
 }
 
+.section_menu2 {
+  background-color: #FFF5FE;
+}
+
 .titre_trait {
   display: flex;
   justify-content: space-between;
@@ -245,6 +249,10 @@ header {
   height: 7rem;
   padding-top: 1px;
   letter-spacing: -3px;
+}
+header a {
+  text-decoration: none;
+  color: #FDCB46;
 }
 
 .bloc_menu {
