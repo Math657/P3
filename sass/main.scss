@@ -5,7 +5,6 @@
     font-family: 'action_manregular';
     src: url('Action_Man-webfont.eot');
     src: url('Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
-        url('Action_Man-webfont.woff2') format('woff2'),
         url('Action_Man-webfont.woff') format('woff'),
         url('Action_Man-webfont.ttf') format('truetype'),
         url('Action_Man-webfont.svg#action_manregular') format('svg');
@@ -19,7 +18,6 @@
     font-family: 'aliceregular';
     src: url('Alice-Regular-webfont.eot');
     src: url('Alice-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Alice-Regular-webfont.woff2') format('woff2'),
          url('Alice-Regular-webfont.woff') format('woff'),
          url('Alice-Regular-webfont.ttf') format('truetype'),
          url('Alice-Regular-webfont.svg#aliceregular') format('svg');
@@ -32,7 +30,6 @@
     font-family: 'kelvinchregular';
     src: url('Kelvinch-Roman-webfont.eot');
     src: url('Kelvinch-Roman-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Kelvinch-Roman-webfont.woff2') format('woff2'),
          url('Kelvinch-Roman-webfont.woff') format('woff'),
          url('Kelvinch-Roman-webfont.ttf') format('truetype'),
          url('Kelvinch-Roman-webfont.svg#kelvinchregular') format('svg');
@@ -88,11 +85,17 @@ header {
 .bloc_menu {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    a {
+        transition: transform .5s ease;
+    }
+    a:hover {
+        transform: scale(1.2);
+    }
 }
 
 .menu {
-    width: 170px;
-    height: 240px;
+    width: 17vh;
+    height: 24vh;
     max-width: 100%;
     margin: 1rem;
     padding: 1rem;
@@ -231,17 +234,13 @@ footer {
     .bloc_menu {
         display: flex;
         justify-content: space-evenly;
+        height: 50vh;
     }
 
     .menu {
-        padding-left: 2rem;
-        padding-right: 2rem;
-
-        img {
-            width: 600px;
-            height: auto;
-        }
-
+        max-width: 25vh;
+        max-height: 30vh;
+        margin: 1rem;
+        padding: 1rem;
     }
-
 }
