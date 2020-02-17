@@ -231,15 +231,20 @@ footer {
 
 
 @media all and (min-width: 1200px) {
+    section{
+        height: 80vh;
+    }
+
     .bloc_menu {
         display: flex;
         justify-content: space-evenly;
-        height: 50vh;
+        margin-bottom: 8vh;
+        margin-top: 4vh;
     }
 
     .menu {
-        max-width: 25vh;
-        max-height: 30vh;
+        min-width: 25vh;
+        min-height: 40vh;
         margin: 1rem;
         padding: 1rem;
     }
