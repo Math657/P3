@@ -48,8 +48,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     font-family: BreulGroteskA-Bold, Arial, Helvetica, sans-serif;
-    ;
 }
 
 html {
@@ -60,6 +60,7 @@ body {
     font-size: $base-font-size;
     color: $font-color-btn;
     width: 100%;
+    height: 100%;
     background-color: white;
     max-width: 1960px;
     margin: auto;
@@ -82,9 +83,16 @@ header {
     }
 }
 
+section {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
 .bloc_menu {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    height: 50%;
     a {
         transition: transform .5s ease;
     }
@@ -93,14 +101,16 @@ header {
     }
 }
 
+// Menu général (1)
 .menu {
-    width: 10rem;
-    height: 15rem;
-    margin: 1rem;
+    width: 16vh;
+    height: 22vh;
+    margin: 1rem auto 1rem auto;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     box-shadow: 2px 2px 10px rgb(201, 200, 200);
     background-color: #FCDFDB;
@@ -112,11 +122,24 @@ header {
     }
 }
 
+.row1,
+.row2 {
+    display: flex;
+    align-items: center;
+   // justify-content: center;
+    height: 100%;
+    width: 100%; 
+    a {
+        flex-grow: 1;
+    }
+}
+
 .link_menu1 {
     text-decoration: none;
     color: #441B20;
 }
 
+// Menu 2
 .link_menu2 {
     text-decoration: none;
     color: #C67412;
@@ -133,6 +156,7 @@ header {
     }
 }
 
+// Menu 3
 .link_menu3 {
     text-decoration: none;
     color: #0228DD;
@@ -150,6 +174,7 @@ header {
     }
 }
 
+// Menu 4
 .link_menu4 {
     text-decoration: none;
     color: #45993E;
@@ -165,12 +190,6 @@ header {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-}
-
-.row1,
-.row2 {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .btn_prochainement {
@@ -228,7 +247,7 @@ footer {
     }
 }
 
-
+// Grandes fenêtres
 @media all and (min-width: 1200px) {
 
     .bloc_menu {
@@ -239,14 +258,37 @@ footer {
     }
 
     .menu {
-       
-        margin: 1rem;
+        width: 27vh;
+        height: 35vh;
+        margin: 1rem auto 1rem auto;
         padding: 1rem;
     }
 }
 
-@media all and (max-width: 799px) {
+// Mobiles
+@media all and (max-width: 499px) {
     .menu {
-      
+        width: 13vh;
+        height: 18vh;
+        padding-top: 1rem;
+        img {
+            max-width: 1.5rem;
+        }
+        p {
+            margin-bottom: -0.5rem;
+        }
+    }
+
+    .menu1 > p {
+        margin-top: 0;
+    }
+
+    .btn_prochainement {
+        font-size: 0.9em;
+        margin-bottom: 3rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 5px 0px 5px 0px;
+        width: 12rem;
     }
 }
