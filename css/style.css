@@ -295,9 +295,23 @@ html {
     margin-left: 0.5rem;
     line-height: 1;
   }
+  .section_menu .la_note h2 {
+    line-height: 1;
+  }
+  .section_menu .la_note img {
+    left: 1rem;
+  }
 
   .titre_trait img {
     width: 30%;
+  }
+  .titre_trait h3 {
+    line-height: 1;
+  }
+}
+@media all and (max-width: 421px) {
+  .la_note img {
+    margin-top: 1rem;
   }
 }
 @font-face {

@@ -149,12 +149,33 @@ html {
             margin-left: 0.5rem;
             line-height: 1;
         }
+
+        .la_note {
+            
+            h2 {
+                line-height: 1;
+            }
+            img {
+                left: 1rem;
+            }
+        }
     }
 
     .titre_trait {
         img {
             width: 30%;
         }
+        h3 {
+            line-height: 1;
+        }
     }
 
+}
+
+@media all and (max-width: 421px) {
+    .la_note {
+        img {
+            margin-top: 1rem;
+        }
+    }
 }
