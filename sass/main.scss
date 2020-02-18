@@ -94,9 +94,8 @@ header {
 }
 
 .menu {
-    width: 17vh;
-    height: 24vh;
-    max-width: 100%;
+    width: 10rem;
+    height: 15rem;
     margin: 1rem;
     padding: 1rem;
     display: flex;
@@ -231,9 +230,6 @@ footer {
 
 
 @media all and (min-width: 1200px) {
-    section{
-        height: 80vh;
-    }
 
     .bloc_menu {
         display: flex;
@@ -243,9 +239,14 @@ footer {
     }
 
     .menu {
-        min-width: 25vh;
-        min-height: 40vh;
+       
         margin: 1rem;
         padding: 1rem;
+    }
+}
+
+@media all and (max-width: 799px) {
+    .menu {
+      
     }
 }

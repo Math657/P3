@@ -281,6 +281,25 @@ html {
   font-style: italic;
 }
 
+@media all and (max-width: 799px) {
+  .section_menu {
+    width: 60%;
+    font-size: 14px;
+  }
+  .section_menu li {
+    margin-bottom: 1rem;
+  }
+  .section_menu .prix {
+    float: right;
+    font-size: 16px;
+    margin-left: 0.5rem;
+    line-height: 1;
+  }
+
+  .titre_trait img {
+    width: 30%;
+  }
+}
 @font-face {
   font-family: "action_manregular";
   src: url("Action_Man-webfont.eot");
@@ -351,9 +370,8 @@ header a {
 }
 
 .menu {
-  width: 17vh;
-  height: 24vh;
-  max-width: 100%;
+  width: 10rem;
+  height: 15rem;
   margin: 1rem;
   padding: 1rem;
   display: flex;
@@ -476,10 +494,6 @@ footer a {
 }
 
 @media all and (min-width: 1200px) {
-  section {
-    height: 80vh;
-  }
-
   .bloc_menu {
     display: flex;
     justify-content: space-evenly;
@@ -488,8 +502,6 @@ footer a {
   }
 
   .menu {
-    min-width: 25vh;
-    min-height: 40vh;
     margin: 1rem;
     padding: 1rem;
   }
