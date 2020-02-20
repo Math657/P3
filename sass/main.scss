@@ -260,7 +260,7 @@ footer {
     .menu {
         width: 27vh;
         height: 35vh;
-        margin: 1rem auto 1rem auto;
+        margin: 2rem auto 2rem auto;
         padding: 1rem;
     }
 }
@@ -271,6 +271,7 @@ footer {
         width: 13vh;
         height: 18vh;
         padding-top: 1rem;
+        font-size: 0.9rem;
         img {
             max-width: 1.5rem;
         }
@@ -290,5 +291,9 @@ footer {
         margin-left: auto;
         padding: 5px 0px 5px 0px;
         width: 12rem;
+    }
+
+    footer {
+        font-size: 1rem;
     }
 }
